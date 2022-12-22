@@ -33,7 +33,7 @@
 body {
   max-width: 1251px;
   background-color: #f5f5f5;
-  margin: auto;
+  margin: 0 auto;
 }
 
 /* -----------------------------header-------------------------------- */
@@ -43,6 +43,11 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-top: 40px;
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000000; */
 }
 header .header-img {
   background-image: url(./assets/logo.svg);
@@ -145,4 +150,101 @@ nav .log-in .btn-register {
   background-size: contain;
   margin-right: 14px;
   margin-top: 20px;
+}
+
+/* ----------main-section learn-more--------------- */
+
+.learn-more {
+  display: flex;
+  padding-top: 100px;
+}
+.learn-more-img {
+  background-image: url(./assets/setion.png);
+  width: 659px;
+  height: 534px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.learn-more-text {
+  display: flex;
+  flex-direction: column;
+  width: 481px;
+  margin-left: 66px;
+  margin-top: 100px;
+}
+.learn-more-text h2 {
+  font: 700 36px "PlayfairDisplay";
+}
+.learn-more-text p {
+  font: 300 17px "Inter";
+  color: #7d7987;
+  line-height: 30px;
+  padding-top: 20px;
+}
+
+.learn-more-text .btn {
+  color: #fff;
+  font: 600 16px "Inter";
+  background-color: #fb8f1d;
+  border-radius: 8px;
+  width: 164px;
+  height: 48px;
+  text-align: center;
+  padding-top: 14px;
+  margin-top: 33px;
+}
+
+/* -------------------footer-------------------- */
+
+footer {
+  display: flex;
+  gap: 100px;
+  margin-top: 192px;
+  padding: 97px 0 120px;
+  background-color: #f9f9fb;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  justify-content: center;
+}
+footer .footer-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 391px;
+  padding-left: 52px;
+}
+.footer-block .img {
+  background-image: url(./assets/footer-logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 44px;
+  height: 37.24px;
+  margin-bottom: 21px;
+}
+.footer-block p {
+  font: 300 18px "Inter";
+  color: #848484;
+  width: 312px;
+}
+.footer-block p:last-child {
+  width: 100%;
+  padding-top: 33px;
+}
+.footer-block p:not(:last-child) {
+  padding-top: 21px;
+}
+footer .footer-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .footer-text p {
+  font: 300 18px "Inter";
+  color: #848484;
+  width: 170px;
+}
+footer .footer-text p:first-child {
+  font: 700 19px "Inter";
+  color: #000;
 }
