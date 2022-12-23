@@ -274,7 +274,7 @@ footer .footer-text p:first-child {
   }
 }
 @media screen and (max-width: 1100px) {
-  footer{
+  footer {
     display: none;
   }
 }
@@ -302,12 +302,10 @@ footer .footer-text p:first-child {
     margin-top: 10px;
   }
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 700px) {
   header nav {
     display: none;
   }
-}
-@media screen and (max-width: 700px) {
   .holiday-finder .holiday-img {
     display: none;
   }
@@ -328,6 +326,11 @@ footer .footer-text p:first-child {
   .learn-more-text {
     width: 100%;
     text-align: center;
+    margin:10px 15px 0;
+  
+  }
+  .learn-more-text .btn{
+    align-self: center;
   }
 }
 @media screen and (max-width: 529px) {
@@ -350,6 +353,6 @@ footer .footer-text p:first-child {
     margin-bottom: 15px;
   }
   .learn-more-text .btn {
-    margin-left: 76px;
+    align-self: center;
   }
 }
